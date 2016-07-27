@@ -1,0 +1,6 @@
+FROM resin/rpi-raspbian
+
+RUN apt-get -y update && apt-get -y upgrade
+
+CMD ["bin/sh"]
+
